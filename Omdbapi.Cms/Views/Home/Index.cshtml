@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="row">
+        <div class="col-md-6 col-xs-6">
+            <input class="form-control" id="filmname" name="filmname" placeholder="Film adını giriniz." />
+
+        </div>
+        <div class="col-md-6 col-xs-6">
+            <button id="SearchFilm" class="btn btn-send">Ara</button>
+ 
+        </div>
+        <div class="loading"  style="display:none">
+            <img src="~/images/200.gif" />
+        </div>
+    </div>
+
+<div class="row">
+    <div id="output"></div>
+</div>
+
+ 
